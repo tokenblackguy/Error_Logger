@@ -22,3 +22,5 @@ else
       echo "\$ALERT is NOT NULL"
       echo $ALERT | mail -s 'ERRORS' $MAIL
 fi
+
+echo > $LOGFILEPATH
